@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# local data and tracking (canonical copies live in the object store)
+data/
+mlruns/
+mlflow.db
+optuna.db
+.DS_Store
